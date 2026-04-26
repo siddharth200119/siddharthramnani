@@ -19,6 +19,14 @@
 
 html {
   background: var(--background);
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 768px) {
+  html {
+    scroll-padding-top: 96px;
+  }
 }
 
 body {
@@ -36,4 +44,22 @@ body {
 ::selection {
   background: rgba(240, 106, 95, 0.35);
   color: var(--foreground);
+}
+
+@keyframes skills-marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes skills-marquee-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }

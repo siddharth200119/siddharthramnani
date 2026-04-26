@@ -1,0 +1,72 @@
+{
+  "professionalExperience": [
+    {
+      "id": "hexylon",
+      "period": "Dec 2024 - Present",
+      "duration": "Current",
+      "organization": "Hexylon Analytics",
+      "role": "Full Stack Developer / AI Team Lead",
+      "location": "Ahmedabad, GJ",
+      "highlights": [
+        "Architected an autonomous Database Agent using RAW and SQLAlchemy for natural language querying across SQL and NoSQL systems with granular permission management.",
+        "Engineered a provider-agnostic LLM orchestration framework across OpenAI, Gemini, and Groq to reduce API cost and improve system redundancy.",
+        "Deployed a scalable computer vision pipeline with Nvidia DeepStream and OpenCV for 24x7 real-time employee activity tracking and operational compliance.",
+        "Prototyped an IoT edge computing solution for driver behavior analysis by fusing accelerometer, gyroscope, and GPS streams.",
+        "Spearheaded a cross-platform HRMS mobile app using Flutter with shared code across iOS and Android."
+      ],
+      "techStack": [
+        "Python",
+        "SQLAlchemy",
+        "OpenAI",
+        "Gemini",
+        "Groq",
+        "Nvidia DeepStream",
+        "OpenCV",
+        "Flutter",
+        "IoT"
+      ]
+    },
+    {
+      "id": "almashines",
+      "period": "Jan 2024 - Dec 2024",
+      "duration": "1 yr",
+      "organization": "Almashines",
+      "role": "Full Stack Developer",
+      "location": "Ahmedabad, GJ",
+      "highlights": [
+        "Integrated i18n workflows to implement platform-wide multilingual support, improving international client engagement.",
+        "Developed a multi-tenant payment infrastructure integrating Stripe and Razorpay for stronger transaction reliability.",
+        "Optimized high-volume email outreach workflows using PHP and automation scheduling for global sales campaigns."
+      ],
+      "techStack": [
+        "PHP",
+        "JavaScript",
+        "Stripe",
+        "Razorpay",
+        "i18n"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "pdeu",
+      "period": "Nov 2020 - Jun 2024",
+      "duration": "3 yrs 8 mos",
+      "organization": "Pandit Deendayal Energy University",
+      "role": "B.Tech in Information and Communication Technology",
+      "location": "Ahmedabad, GJ",
+      "highlights": [
+        "Completed undergraduate program in Information and Communication Technology.",
+        "Built foundations in software engineering, data systems, and communication technologies."
+      ],
+      "techStack": [
+        "Python",
+        "C/C++",
+        "SQL",
+        "Flutter",
+        "React",
+        "FastAPI"
+      ]
+    }
+  ]
+}

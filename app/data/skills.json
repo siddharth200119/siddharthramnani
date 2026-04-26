@@ -1,0 +1,156 @@
+[
+  {
+    "id": "python",
+    "name": "Python",
+    "icon": "PY",
+    "image": "https://cdn.simpleicons.org/python/3776AB",
+    "level": 90,
+    "summary": "Backend automation and data tooling.",
+    "experience": [
+      "Built APIs and background jobs for internal tools",
+      "Automated reporting and ETL workflows",
+      "Optimized scripts for large datasets"
+    ],
+    "projects": ["Portfolio API", "Data Ingestion Pipeline", "Analytics CLI"]
+  },
+  {
+    "id": "node",
+    "name": "Node",
+    "icon": "ND",
+    "image": "https://cdn.simpleicons.org/nodedotjs/339933",
+    "level": 86,
+    "summary": "Runtime for services and real-time systems.",
+    "experience": [
+      "Created modular service architecture with typed contracts",
+      "Implemented real-time events and websocket channels",
+      "Integrated REST and GraphQL endpoints"
+    ],
+    "projects": ["Realtime Chat App", "Admin Backend", "Event Gateway"]
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "icon": "RC",
+    "image": "https://cdn.simpleicons.org/react/61DAFB",
+    "level": 92,
+    "summary": "Interactive frontend systems and component architecture.",
+    "experience": [
+      "Shipped responsive UI systems with reusable components",
+      "Managed state with Context and server-driven flows",
+      "Built animation-heavy interfaces with strong UX focus"
+    ],
+    "projects": ["Portfolio Website", "Dashboard Suite", "UI Component Kit"]
+  },
+  {
+    "id": "angular",
+    "name": "Angular",
+    "icon": "NG",
+    "image": "https://cdn.simpleicons.org/angular/DD0031",
+    "level": 72,
+    "summary": "Structured enterprise-style frontend applications.",
+    "experience": [
+      "Developed modules with clear feature boundaries",
+      "Used RxJS pipelines for async state coordination",
+      "Maintained scalable routing and form systems"
+    ],
+    "projects": ["Ops Console", "Role Admin Panel", "Workflow UI"]
+  },
+  {
+    "id": "langchain",
+    "name": "Langchain",
+    "icon": "LC",
+    "image": "https://cdn.simpleicons.org/langchain/00f5d4",
+    "level": 68,
+    "summary": "LLM orchestration and chain design.",
+    "experience": [
+      "Designed retrieval pipelines for contextual answers",
+      "Connected vector search with prompt templates",
+      "Built guardrails for tool and output handling"
+    ],
+    "projects": ["RAG Assistant", "Doc Query Bot", "Prompt Lab"]
+  },
+  {
+    "id": "devops",
+    "name": "Devops",
+    "icon": "DV",
+    "image": "https://cdn.simpleicons.org/docker/2496ED",
+    "level": 74,
+    "summary": "CI/CD pipelines and deployment automation.",
+    "experience": [
+      "Automated build and release workflows",
+      "Configured infrastructure monitoring and alerts",
+      "Improved deployment reliability across environments"
+    ],
+    "projects": ["CI Pipeline", "Deployment Scripts", "Infra Dashboard"]
+  },
+  {
+    "id": "mlops",
+    "name": "MLOps",
+    "icon": "ML",
+    "image": "https://cdn.simpleicons.org/mlflow/0194E2",
+    "level": 65,
+    "summary": "Model lifecycle and experiment operations.",
+    "experience": [
+      "Tracked experiments and model versioning",
+      "Automated training and evaluation runs",
+      "Built repeatable serving and rollback patterns"
+    ],
+    "projects": ["Model Registry", "Training Orchestrator", "Serving Monitor"]
+  },
+  {
+    "id": "flutter",
+    "name": "Flutter",
+    "icon": "FL",
+    "image": "https://cdn.simpleicons.org/flutter/02569B",
+    "level": 64,
+    "summary": "Cross-platform app interfaces.",
+    "experience": [
+      "Built reusable widgets with adaptive layouts",
+      "Handled app state and asynchronous data flows",
+      "Delivered polished mobile interactions"
+    ],
+    "projects": ["Mobile Companion App", "Prototype Toolkit", "UI Sandbox"]
+  },
+  {
+    "id": "dart",
+    "name": "Dart",
+    "icon": "DT",
+    "image": "https://cdn.simpleicons.org/dart/0175C2",
+    "level": 62,
+    "summary": "Language foundation for app and package development.",
+    "experience": [
+      "Structured codebases with clean models and services",
+      "Built utility packages for shared logic",
+      "Optimized async and typed workflows"
+    ],
+    "projects": ["Core Utilities", "API Layer", "Domain Models"]
+  },
+  {
+    "id": "embedded",
+    "name": "Embedded Systems",
+    "icon": "ES",
+    "image": "https://cdn.simpleicons.org/arduino/00979D",
+    "level": 57,
+    "summary": "Hardware-aware software and low-level integration.",
+    "experience": [
+      "Worked with sensor data and serial communication",
+      "Implemented event loops for constrained systems",
+      "Debugged firmware interactions with host tools"
+    ],
+    "projects": ["Device Monitor", "Telemetry Bridge", "Control Interface"]
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI",
+    "icon": "FA",
+    "image": "https://cdn.simpleicons.org/fastapi/009688",
+    "level": 78,
+    "summary": "High-performance Python APIs.",
+    "experience": [
+      "Designed typed endpoints with pydantic models",
+      "Implemented auth and role-based middleware",
+      "Delivered async services with clean OpenAPI docs"
+    ],
+    "projects": ["Auth Service", "Telemetry API", "Data Access Layer"]
+  }
+]
