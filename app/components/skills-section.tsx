@@ -62,6 +62,7 @@ function SkillImage({
         fill
         sizes="56px"
         className="h-full w-full object-contain"
+        unoptimized
       />
     </div>
   );
