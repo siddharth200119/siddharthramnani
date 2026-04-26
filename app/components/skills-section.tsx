@@ -34,11 +34,11 @@ const skills = skillsData as Skill[];
 function LevelBars({ level }: { level: number }) {
   const activeBars = Math.max(1, Math.round((level / 100) * 8));
   return (
-    <div className="mt-6 flex items-center gap-1.5">
+    <div className="mt-3 sm:mt-6 flex items-center gap-1 sm:gap-1.5">
       {Array.from({ length: 8 }).map((_, index) => (
         <span
           key={index}
-          className={`h-[3px] w-5 rounded-full ${
+          className={`h-[2px] sm:h-[3px] w-3 sm:w-5 rounded-full ${
             index < activeBars ? "bg-[#00f5d4]" : "bg-white/18"
           }`}
         />
@@ -60,7 +60,7 @@ function SkillImage({
         src={skill.image}
         alt={`${skill.name} logo`}
         fill
-        sizes="56px"
+        sizes="(max-width: 640px) 32px, 56px"
         className="h-full w-full object-contain"
         unoptimized
       />
@@ -70,11 +70,11 @@ function SkillImage({
 
 function CompactCardBody({ skill }: { skill: Skill }) {
   return (
-    <div className="h-full w-full rounded-[10px] border border-[#00f5d4]/20 bg-[#030d14]/70 px-6 py-7 text-left">
-      <div className="mb-10 inline-flex h-16 w-16 items-center justify-center rounded-[8px] border border-[#00f5d4]/35 bg-[#041822] p-2.5">
-        <SkillImage skill={skill} className="h-11 w-11" />
+    <div className="h-full w-full rounded-[8px] sm:rounded-[10px] border border-[#00f5d4]/20 bg-[#030d14]/70 px-4 py-5 sm:px-6 sm:py-7 text-left">
+      <div className="mb-4 sm:mb-10 inline-flex h-10 w-10 sm:h-16 sm:w-16 items-center justify-center rounded-[6px] sm:rounded-[8px] border border-[#00f5d4]/35 bg-[#041822] p-1.5 sm:p-2.5">
+        <SkillImage skill={skill} className="h-7 w-7 sm:h-11 sm:w-11" />
       </div>
-      <p className="font-mono text-[2rem] leading-none text-white/92">{skill.name}</p>
+      <p className="font-mono text-xl sm:text-[2rem] leading-none text-white/92 truncate">{skill.name}</p>
       <LevelBars level={skill.level} />
     </div>
   );
@@ -94,7 +94,7 @@ function SkillCard({
   return (
     <button
       type="button"
-      className="h-[220px] w-[300px] shrink-0 rounded-[10px] text-left transition duration-200 hover:-translate-y-0.5"
+      className="h-[140px] w-[160px] sm:h-[220px] sm:w-[300px] shrink-0 rounded-[8px] sm:rounded-[10px] text-left transition duration-200 hover:-translate-y-0.5"
       onMouseEnter={(event) => onEnter(skill, instanceKey, event.currentTarget)}
       onMouseLeave={onLeave}
       onFocus={(event) => onEnter(skill, instanceKey, event.currentTarget)}
@@ -219,10 +219,10 @@ export default function SkillsSection() {
         </p>
       </div>
 
-      <div className="space-y-10" onMouseLeave={queueClose}>
+      <div className="space-y-6 sm:space-y-10" onMouseLeave={queueClose}>
         <div className="overflow-hidden [mask-image:linear-gradient(90deg,transparent,black_7%,black_93%,transparent)]">
           <div
-            className="flex w-max gap-6"
+            className="flex w-max gap-4 sm:gap-6"
             style={{
               animation: "skills-marquee-left 34s linear infinite",
               animationPlayState: pauseMarquee ? "paused" : "running",
@@ -242,7 +242,7 @@ export default function SkillsSection() {
 
         <div className="overflow-hidden [mask-image:linear-gradient(90deg,transparent,black_7%,black_93%,transparent)]">
           <div
-            className="flex w-max gap-6"
+            className="flex w-max gap-4 sm:gap-6"
             style={{
               animation: "skills-marquee-right 40s linear infinite",
               animationPlayState: pauseMarquee ? "paused" : "running",
